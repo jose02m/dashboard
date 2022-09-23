@@ -1,2 +1,23 @@
 @use '../../scss/abstracts/'as *;
-@use 'sass:math';
+
+.topnav {
+  @include flex(center, space-between);
+  margin-bottom: $spacing;
+
+  @include tablet {
+    margin-bottom: $mobileSpacing;
+  }
+}
+
+.sidebar-toggle {
+  @include flex(center, center);
+  width  : 40px;
+  height : 40px;
+  cursor : pointer;
+  display: none;
+
+  @include tablet {
+    display: flex;
+  }
+
+}

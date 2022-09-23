@@ -1,9 +1,16 @@
-import React from 'react'
+import React from "react";
+import Wrapper, {
+  WrapperMain,
+  WrapperRight,
+} from "../components/Wrapper/Wrapper";
 
 function Dashboard() {
   return (
-    <div>Dashboard page</div>
-  )
+    <Wrapper>
+      <WrapperMain>Main</WrapperMain>
+      <WrapperRight>Right</WrapperRight>
+    </Wrapper>
+  );
 }
 
-export default Dashboard
+export default Dashboard;
