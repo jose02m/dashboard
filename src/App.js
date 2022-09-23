@@ -19,6 +19,7 @@ function App() {
               <Route path="orders" element={<Blank />} />
               <Route path="customers" element={<Blank />} />
               <Route path="employees" element={<Blank />} />
+              <Route path="logout" element={<Blank />} />
             </Route>
           </Routes>
         {/* </div> */}

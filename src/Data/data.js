@@ -5,6 +5,7 @@ import {
   MdOutlineShoppingCart,
   MdPeopleOutline,
   MdSupervisedUserCircle,
+  MdOutlineLogout,
 } from "react-icons/md";
 
 export const SidebarItems = [
@@ -31,5 +32,11 @@ export const SidebarItems = [
     section: 'employees',
     icon: MdSupervisedUserCircle,
     heading: "Employees",
+  },
+  {
+    Link: '/logout',
+    section: 'logout',
+    icon: MdOutlineLogout,
+    heading: "Salir",
   },
 ];

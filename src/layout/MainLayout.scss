@@ -1,0 +1,16 @@
+@use '../scss/abstracts/'as *;
+
+.main {
+  @include tablet {
+    width       : 100vw;
+    padding-letf: 0;
+  }
+
+  &__content {
+    @include tablet {
+      padding : $mobileSpacing;
+      position: realtive;
+      background-color: $bodyBg;
+    }
+  }
+}
