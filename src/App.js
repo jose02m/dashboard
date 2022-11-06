@@ -5,7 +5,7 @@ import Dashboard from "./pages/Dashboard";
 import Blank from "./pages/Blank";
 import MainLayout from "./layout/MainLayout";
 
-import "./App.css";
+import "./scss/App.scss";
 
 function App() {
   return (

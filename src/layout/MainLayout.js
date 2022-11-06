@@ -10,7 +10,7 @@ function MainLayout() {
   return (
     <>
       <Sidebar />
-      <div className="main pl-[384px] overflow-x-hidden">
+      <div className="main pl-[300px] overflow-x-hidden">
         <div className="main__content min-h-[100vh] p-[48px] transition-all ease-in-out delay-[0.5s]">
           <TopNav />
           <Outlet />

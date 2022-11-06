@@ -34,7 +34,7 @@ function Sidebar() {
               <div className="h-[40px] w-[40px] mr-[3rem] flex items-center justify-center">
                 <item.icon className="text-[1.9rem]" />
               </div>
-              <div className="">{item.heading}</div>
+              <div className="text-[1rem]">{item.heading}</div>
             </Link>
           );
         })}
